@@ -6,6 +6,20 @@
 
 }
 
+@font-face {
+    font-family: 'Broke Grotesk'; /* Dai un nome a tua scelta */
+    src: url('fonts/BrokeGrotesk-Regular.otf') format('otf'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Space Mono'; /* Dai un nome a tua scelta */
+    src: url('fonts/SPACEMONO-REGULAR.TTF') format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +31,7 @@ body {
   background: var(--background);
   color: var(--text);
 
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Space Mono";
 
   font-size: 18px;
   line-height: 1.6;
