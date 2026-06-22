@@ -1,0 +1,93 @@
+:root {
+
+  --background: #EBEEF1;
+  --text: #362120;
+  --accent: #E04407;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background: var(--background);
+  color: var(--text);
+
+  font-family: "IBM Plex Sans", sans-serif;
+
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+main {
+
+  max-width: 700px;
+
+  margin: 0 auto;
+
+  padding: 60px 24px 120px;
+}
+
+.hero {
+
+  margin-bottom: 100px;
+}
+
+.logo {
+
+  width: 120px;
+  margin-bottom: 40px;
+}
+
+h1 {
+
+  font-size: 4rem;
+  font-weight: 400;
+
+  line-height: 0.95;
+
+  margin-bottom: 24px;
+}
+
+.manifesto {
+
+  font-size: 1.4rem;
+
+  max-width: 500px;
+}
+
+section {
+
+  margin-bottom: 70px;
+}
+
+h2 {
+
+  font-size: 0.9rem;
+
+  font-weight: 500;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.08em;
+
+  margin-bottom: 12px;
+}
+
+a {
+
+  color: var(--text);
+  text-decoration: none;
+
+  border-bottom: 1px solid var(--text);
+}
+
+a:hover {
+
+  color: var(--accent);
+  border-color: var(--accent);
+}
